@@ -14,10 +14,11 @@ author: Luis De Benito (@0v3rs33r)
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
+  Blog: "Blog"
+  Research:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+  Github: "https://github.com/luisrowley"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
@@ -103,15 +104,15 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-col: "rgb(45, 49, 51)"
+navbar-text-col: "#EAEAEA"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
+page-col: "rgb(24, 26, 27)"
+text-col: "rgb(192, 186, 178)"
+link-col: "#57affa"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-col: "rgb(45, 49, 51)"
+footer-text-col: "#EAEAEA"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
@@ -252,6 +253,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - vendor/
 
 plugins:
   - jekyll-paginate
